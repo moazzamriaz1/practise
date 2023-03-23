@@ -1,0 +1,76 @@
+<html>
+	
+	<head>
+	<style>th, td {
+  border-style: ridge;
+  border-collapse: collapse;
+}
+
+</style>
+	
+	</head>
+	
+	
+	<body>
+	<h1> nested tables </h1>
+	
+		<table  >
+		
+		<tr>
+			<th> header column 1 </th>
+			<th> header column 2 </th>
+			<th> header column 3 </th>
+			<th> header column 4 </th>
+		</tr>
+		<tr>
+			<th> Row 2- Item 1 </th>
+			<th> Row 2- Item 2 </th>
+			<td rowspan="2">  Row 2:Nested Table 1
+				<table>
+					<tr> 
+						<th> row 1 header </th>
+						<td> item</td>
+					</tr>
+					<tr> 
+						<th> row 2 header </th>
+						<td> item</td>
+					</tr>
+					<tr> 
+						<th> row 3 header </th>
+						<td> item</td> 
+					</tr></table> </td>	
+					<th> row 2 item 4 </th>
+		<tr>
+			<td rowspan="1">  Row 3:Nested Table 2
+				<table>
+					<tr> 
+						<th> row 1 header </th>
+						<td> item</td>
+					</tr>
+					<tr> 
+						<th> row 2 header </th>
+						<td> item</td>
+					</tr>
+					</table></td>
+			<td> row 2 </td>
+			<td rowspan="2"> row 3 item 3</td>	
+					
+			
+			
+		</tr>
+		<tr>
+			<td> header column 1 </td>
+			<td> header column 2 </td>
+			<td> header column 3 </td>
+		</tr>
+		<tr>
+			<td colspan=" 4"> header column 1 </td>
+		</tr>	
+			
+		
+  
+		
+		</table>
+	
+	</body>
+</html>
